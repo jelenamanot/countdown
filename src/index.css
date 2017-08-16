@@ -4,6 +4,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color:#282E3A;
   color: #ffffff;
+  background: url('clock.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .clearfix:after {
