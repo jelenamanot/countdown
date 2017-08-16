@@ -1,0 +1,23 @@
+.clock-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clock-hours, .clock-days, .clock-minutes, .clock-seconds {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 26px;
+}
+.clock-days { background-color: #F658AF; }
+.clock-hours { background-color: #FB5559; }
+.clock-minutes { background-color: #2DCB74; }
+.clock-seconds  { background-color: #9955FB; }
+
+.clock-small {
+  display: block;
+  font-size: 16px;
+}

@@ -2,7 +2,7 @@
   text-align: center;
   margin-top: 12%;
 }
-
+/* ----- START main text ----- */
 h1 {
   font-size: 25px;
   text-transform: uppercase;
@@ -19,32 +19,11 @@ h1 {
   color: #40CCFF;
   letter-spacing: 0;
 }
+/* ----- END main text ----- */
 
-.clock-div {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.clock-hours, .clock-days, .clock-minutes, .clock-seconds {
-  width: 120px;
-  height: 120px;
-  display: inline-block;
-  margin: 10px;
-  padding: 25px;
-  border-radius: 5px;
-  font-size: 26px;
-}
-.clock-days { background-color: #F658AF; }
-.clock-hours { background-color: #FB5559; }
-.clock-minutes { background-color: #2DCB74; }
-.clock-seconds  { background-color: #9955FB; }
-
-.clock-small {
-  display: block;
-  font-size: 16px;
-}
+/* ----- START form styling ----- */
 .deadline-input {
-  padding: 12px 25px;
+  padding: 12px;
   border-radius: 5px;
   text-align: center;
   border:none;
@@ -66,3 +45,4 @@ button:hover {
 .mini-form {
   margin-top: 1%;
 }
+/* ----- END form styling ----- */
