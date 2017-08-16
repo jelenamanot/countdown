@@ -40,10 +40,10 @@ class Clock extends Component {
   render() {
     return (
       <div className="clock-div clearfix">
-        <p className="clock-days">{this.state.days} days</p>
-        <p className="clock-hours">{this.state.hours} hours</p>
-        <p className="clock-minutes">{this.state.minutes} minutes</p>
-        <p className="clock-seconds">{this.state.seconds} seconds</p>
+        <p className="clock-days">{this.state.days} <span className="clock-small">days</span></p>
+        <p className="clock-hours">{this.state.hours} <span className="clock-small">hours</span></p>
+        <p className="clock-minutes">{this.state.minutes} <span className="clock-small">minutes</span></p>
+        <p className="clock-seconds">{this.state.seconds} <span className="clock-small">seconds</span></p>
       </div>
     );
   }

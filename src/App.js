@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         {/*read deadline from state*/}
-        <h1>Countdown to {this.state.deadline}</h1>
+        <h1>Countdown to <span className="deadline-date">{this.state.deadline}</span></h1>
         
         {/*passing props*/}
         <Clock 
@@ -33,7 +33,7 @@ class App extends Component {
         <div className="mini-form">
           <input
             className="deadline-input"
-            placeholder="How many days left?"
+            placeholder="Month Day, Year"
             onChange={ event => this.setState({newDeadline: event.target.value}) }
           />
           <button onClick={ () => this.changeDeadline() }>Find out!</button>
