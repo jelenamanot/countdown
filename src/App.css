@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  margin-top: 12%;
+}
+/* ----- START main text ----- */
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 22px;
+  font-weight: normal;
+}
+
+.deadline-date {
+  font-size: 35px;
+  text-transform: capitalize;
+  display: block;
+  margin-top: 15px;
+  color: #40CCFF;
+  letter-spacing: 0;
+}
+/* ----- END main text ----- */
+
+/* ----- START form styling ----- */
+.deadline-input {
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  border:none;
+  outline: none;
+  margin-right: 15px;
+  color: #313030;
+}
+
+button {
+  padding: 12px 16px;
+  border-radius: 5px;
+  border:none;
+  outline:none;
+  background-color: #2DA1CB;
+}
+button:hover {
+  background-color: #2C83A3;
+}
+.mini-form {
+  margin-top: 1%;
+}
+/* ----- END form styling ----- */
