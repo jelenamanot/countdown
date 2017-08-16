@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 22px;
+}
+
+.clock-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clock-hours, .clock-days, .clock-minutes, .clock-seconds {
+  display: inline-block;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.clock-hours {
+  background-color: #FB5559;
+}
+.clock-days {
+  background-color: #2DCB74;
+}
+.clock-minutes {
+  background-color: #F6BC58;
+}
+.clock-seconds  {
+  background-color: #9955FB;
+}
+
+.deadline-input {
+  padding: 1px;
+}
+
+.mini-form {
+  margin-top: 5%;
+}
